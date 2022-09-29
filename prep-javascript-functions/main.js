@@ -4,10 +4,7 @@ function addTwoNumbers(num1, num2) {
 
 var sum = addTwoNumbers(2, 2);
 
-console.log('addTwoNumbers Exercise:', sum); // the log method of the console object is being called
-// with two arguments
-// the string "addTwoNumbers Exercise:"
-// and the value of the variable sum
+console.log('addTwoNumbers Exercise:', sum);
 
 function convertHoursToMinutes(hours) {
   return hours * 60;
@@ -15,10 +12,7 @@ function convertHoursToMinutes(hours) {
 
 var mins = convertHoursToMinutes(2);
 
-console.log('convertHoursToMinutes Exercise:', mins); // the log method of the console object is being called
-// with two arguments
-// the string "convertHoursToMinutes Exercise:"
-// and the value of the variable mins
+console.log('convertHoursToMinutes Exercise:', mins);
 
 function getGreeting(name) {
   return 'Hello ' + name + '!';
@@ -26,10 +20,7 @@ function getGreeting(name) {
 
 var name = getGreeting('World');
 
-console.log('getGreeting Exercise:', name); // the log method of the console object is being called
-// with two arguments
-// the string "getGreeting Exercise:"
-// and the value of the variable name
+console.log('getGreeting Exercise:', name);
 
 function addAndMultiplyBy5(num1, num2) {
   return [num1 + num2] * 5;
@@ -37,10 +28,7 @@ function addAndMultiplyBy5(num1, num2) {
 
 var result = addAndMultiplyBy5(10, 5);
 
-console.log('addAndMultiplyBy5 Exercise:', result); // the log method of the console object is being called
-// with two arguments
-// the string "addAndMultiplyBy5 Exercise:"
-// and the value of the variable result
+console.log('addAndMultiplyBy5 Exercise:', result);
 
 function multiplyAndDivideBy5(num1, num2) {
   return [num1 * num2] / 5;
@@ -48,10 +36,7 @@ function multiplyAndDivideBy5(num1, num2) {
 
 var answer = multiplyAndDivideBy5(35, 10);
 
-console.log('multiplyAndDivideBy5 Exercise:', answer); // the log method of the console object is being called
-// with two arguments
-// the string "multiplyAndDivideBy5 Exercise:"
-// and the value of the variable answer
+console.log('multiplyAndDivideBy5 Exercise:', answer);
 
 function subtractTwoNumbers(num1, num2) {
   return num1 - num2;
@@ -59,10 +44,7 @@ function subtractTwoNumbers(num1, num2) {
 
 var outcome = subtractTwoNumbers(22, 7);
 
-console.log('subtractTwoNumbers Exercise:', outcome); // the log method of the console object is being called
-// with two arguments
-// the string "subtractTwoNumbers Exercise:"
-// and the value of the variable outcome
+console.log('subtractTwoNumbers Exercise:', outcome);
 
 function getCircleCircumference(radius) {
   return 2 * Math.PI * radius;
@@ -70,10 +52,7 @@ function getCircleCircumference(radius) {
 
 var circumference = getCircleCircumference(5);
 
-console.log('getCircleCircumference Exercise:', circumference); // the log of the console object is being called
-// with two arguments
-// the string "getCircleCircumference Exercise:"
-// and the value of the variable circumference
+console.log('getCircleCircumference Exercise:', circumference);
 
 function getFullName(firstName, lastName) {
   return firstName + ' ' + lastName;
@@ -81,10 +60,7 @@ function getFullName(firstName, lastName) {
 
 var fullName = getFullName('Juan', 'Ramirez');
 
-console.log('getFullName Exercise:', fullName); // the log method of the console object will be called
-// with two arguments
-// the string "getFullName Exercise:"
-// and the value of the variable fullName
+console.log('getFullName Exercise:', fullName);
 
 function cube(number) {
   return number * number * number;
@@ -92,7 +68,4 @@ function cube(number) {
 
 var cubeResult = cube(5);
 
-console.log('cube Exercise:', cubeResult); // the log method of the console object is being called
-// with two arguments
-// the string "cube Exercise:"
-// and the value of the variable cubeResult
+console.log('cube Exercise:', cubeResult);
